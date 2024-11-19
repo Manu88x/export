@@ -1,4 +1,6 @@
-import React from "react";
+// src/components/Home.js
+import React from 'react';
+import { username, city } from '../data/user';  // Import 'username' and 'city' from user.js
 
 function Home() {
   return (
@@ -9,3 +11,6 @@ function Home() {
     </div>
   );
 }
+
+export default Home;  // Export Home component
+
